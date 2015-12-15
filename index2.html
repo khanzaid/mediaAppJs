@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="Style/MedialValetStyleSheet.css" rel="stylesheet" />
+    <script src="Scripts/jquery-2.1.4.min.js"></script>
+    <script src="Scripts/mediaValet.Core.js"></script>
+
+    <script src="Scripts/mediaValet.Ui.js"></script>
+    <link href="Style/MedialValetStyleSheet.css" rel="stylesheet" />
+    <script type="text/javascript">
+
+    </script>
+    <script>
+        jQuery(window).on("load", function () {
+            //$('#mvapp-container').mediaValet();
+            /*if you pass welcome text u have to pass the text else leave blank
+                e.g: $('#mvapp-container').LoginUI();
+            */
+            $('#mvapp-container').DefaultUI({
+
+            });
+            if ($('#divlogin').LoginUI('Welcome To Dynapt')) {
+                $('#divSearch').DefaultSearchUI();
+                $('#divRecentlyUploaded').SearchUI();
+                $('#divMostViewed').SearchUI();
+            }
+           
+        });
+    </script>
+    <style type="text/css">
+    </style>
+</head>
+<body>
+    <div id="divlogin"></div>
+    <div id="divSearch"></div>
+    <div id="divRecentlyUploaded"></div>
+    <div id="divMostViewed"></div>
+</body>
+</html>

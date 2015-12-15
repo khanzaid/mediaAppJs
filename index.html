@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="Style/MedialValetStyleSheet.css" rel="stylesheet" />
+    <script src="Scripts/jquery-2.1.4.min.js"></script>
+    <script src="Scripts/mediaValet.Core.js"></script>
+    <script src="Scripts/mediaValet.Ui.js"></script>
+    <link href="Style/MedialValetStyleSheet.css" rel="stylesheet" />
+    <script type="text/javascript">
+    </script>
+    <script>
+        jQuery(window).on("load", function () {
+            //$('#mvapp-container').mediaValet();
+            /*if you want to show customized welcome text you have to pass the text else leave it blank
+                e.g: $('#mvapp-container').LoginUI();
+            */
+            $('#mvapp-container').LoginUI({
+              customText: 'Welcome To Dynapt',
+              view: {
+                   recentview: true,
+                   mostvisited:true
+                    }
+             });
+            
+        });       
+    </script>
+    <style type="text/css">
+    </style>
+</head>
+<body>
+    <div id="mvapp-container">
+
+    </div>
+    <div id="mvapp-container1">
+
+    </div>
+    <div id="recentview">
+    
+    </div>
+    <div id="mostview">
+
+    </div>
+</body>
+</html>

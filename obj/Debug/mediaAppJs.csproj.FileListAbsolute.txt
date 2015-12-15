@@ -1,0 +1,6 @@
+E:\Media Valet All Files\mainpro\mediaAppJs\bin\mediaAppJs.dll.config
+E:\Media Valet All Files\mainpro\mediaAppJs\bin\mediaAppJs.dll
+E:\Media Valet All Files\mainpro\mediaAppJs\bin\mediaAppJs.pdb
+E:\Media Valet All Files\mainpro\mediaAppJs\obj\Debug\mediaAppJs.dll
+E:\Media Valet All Files\mainpro\mediaAppJs\obj\Debug\mediaAppJs.pdb
+E:\Media Valet All Files\mainpro\mediaAppJs\obj\Debug\mediaAppJs.csprojResolveAssemblyReference.cache
